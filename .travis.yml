@@ -1,0 +1,24 @@
+## Travis CI configuration.
+##
+##   <https://travis-ci.org/mdklatt/cookiecutter-www-static>
+##
+language: node_js
+node_js:
+  - "lts/*"
+
+branches:
+  only:
+    - master
+    - dev
+
+dist: xenial
+
+install:
+  # Because this is a Node.js project Travis does not create a Python venv,
+  # so pip needs to install packages locally.
+  - pyenv versions
+  - pyenv local 3.6.7
+  - python -m pip install --requirement=requirements.txt --user
+
+script:
+  - python tests/test_template.py

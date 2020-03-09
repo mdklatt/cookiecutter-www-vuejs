@@ -1,0 +1,29 @@
+# Ignore local Node.js dependencies.
+
+node_modules/
+
+
+# Ignore built files.
+
+dist/
+
+
+# Ignore Vagrant runtime files.
+
+.vagrant/
+
+
+# Ignore settings for various IDEs.
+
+.idea/
+.project/
+.pydevproject/
+.vscode/
+nbproject/
+*.code-workspace
+
+
+# Ignore OS metadata files.
+
+.DS_Store
+Thumbs.db

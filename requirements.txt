@@ -1,0 +1,5 @@
+## Python requirements for using the template. 
+##
+##   python -m pip install --user --requirement=requirements.txt 
+##
+cookiecutter>=1.6

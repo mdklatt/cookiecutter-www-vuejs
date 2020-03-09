@@ -1,0 +1,19 @@
+# Ignore pyenv files.
+
+.python-version
+
+
+# Ignore settings for various IDEs.
+
+.idea/
+.project/
+.pydevproject/
+.vscode/
+nbproject/
+*.code-workspace
+
+
+# Ignore OS metadata files.
+
+.DS_Store
+Thumbs.db

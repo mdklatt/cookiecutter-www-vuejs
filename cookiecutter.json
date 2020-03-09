@@ -1,0 +1,7 @@
+{
+    "project_slug": "www-vuejs",
+    "www_name": "{{ cookiecutter.project_slug }}",
+    "author_name": "",
+    "author_email": "",
+    "project_version": "1.0.0"
+}
