@@ -1,9 +1,8 @@
 import Vue from "vue"
 
 
-let app = new Vue({
-    el: "#app",
+new Vue({
     data: {
         name: "World"
     }
-})
+}).$mount("#app")
