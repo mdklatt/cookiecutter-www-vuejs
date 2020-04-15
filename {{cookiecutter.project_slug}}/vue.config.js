@@ -2,7 +2,7 @@ module.exports = {
     outputDir: "dist/",
     pages: {
       index: {
-        entry: "src/script/main.ts",
+        entry: "src/main.ts",
         template: "src/html/index.html",
       }
     },
